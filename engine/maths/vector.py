@@ -46,6 +46,9 @@ class Vector:
     def length(self):
         return sqrt(self.x*self.x + self.y*self.y)
 
+    def sqlength(self):
+        return self.x*self.x + self.y*self.y
+    
     def round(self):
         return Vector(int(self.x), int(self.y))
 
